@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Salman Raza | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4a2c1f0b2f.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Navbar -->
   <header>
-    <nav class="navbar">
-      <h1 class="logo">Salman<span>Raza</span></h1>
+    <nav>
+      <h1 class="logo">Salman Raza</h1>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -21,61 +22,65 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="hero">
     <div class="hero-content">
-      <h2>Hi, I'm <span>Salman Raza</span></h2>
-      <p>QA Engineer | Automation Tester | Tech Enthusiast</p>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/-salmanraza/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://medium.com/@rsalman.sr.sr" target="_blank"><i class="fab fa-medium"></i></a>
-        <a href="https://github.com/salmanraza9773" target="_blank"><i class="fab fa-github"></i></a>
-      </div>
+      <h2>Hi, I’m <span>Salman</span> 👋</h2>
+      <p>A passionate <strong>QA Engineer & Web Developer</strong> exploring technology, AI, and automation.</p>
       <a href="#projects" class="btn">View My Work</a>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="section about">
-    <h2>About Me</h2>
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
     <p>
-      I am a passionate QA Engineer with expertise in automation and manual testing.
-      With hands-on experience in tools like Selenium, Postman, and Jira, I enjoy
-      ensuring product quality and building efficient test frameworks.
+      I am a QA Engineer and Web Developer with experience in automation testing, 
+      building user-friendly websites, and exploring AI-driven solutions. 
+      I love solving real-world problems with technology.
     </p>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="section projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
       <div class="project-card">
-        <i class="fas fa-code"></i>
-        <h3>Automation Framework</h3>
-        <p>Built a scalable Selenium TestNG framework with Page Object Model and reporting.</p>
-      </div>
-      <div class="project-card">
-        <i class="fas fa-bug"></i>
-        <h3>API Testing Suite</h3>
-        <p>Designed API tests using Postman and Newman, integrated with CI/CD pipelines.</p>
-      </div>
-      <div class="project-card">
-        <i class="fas fa-laptop-code"></i>
+        <i class="fas fa-code project-icon"></i>
         <h3>Portfolio Website</h3>
-        <p>This responsive and modern dark-themed portfolio hosted on GitHub Pages.</p>
+        <p>A personal portfolio showcasing my skills, projects, and experience.</p>
+        <a href="https://salmanraza9773.github.io/portfolio" target="_blank" class="btn small">View</a>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-robot project-icon"></i>
+        <h3>QA Automation</h3>
+        <p>Created automation frameworks using Selenium & TestNG for robust testing.</p>
+        <a href="#" class="btn small">View</a>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-database project-icon"></i>
+        <h3>API Testing</h3>
+        <p>Tested REST APIs using Postman & SoapUI, ensuring reliability and performance.</p>
+        <a href="#" class="btn small">View</a>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="section contact">
-    <h2>Contact Me</h2>
-    <p>Let's connect for collaborations, QA projects, or tech discussions.</p>
-    <a href="mailto:rsalman.sr.sr@gmail.com" class="btn">Email Me</a>
+  <section id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <p>If you’d like to collaborate or just say hi, feel free to reach out!</p>
+    <div class="contact-links">
+      <a href="mailto:salmanraza9773@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/salmanraza9773" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/salmanraza9773" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Salman Raza. Built with ❤️</p>
+    <p>© 2025 Salman Raza | Built with ❤️</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
