@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Salman Raza — QA Engineer, Automation Tester, WordPress Developer, Tech Writer." />
+  <title>Salman Raza — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#"><span class="dot"></span> Salman Raza</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle" class="theme-toggle">🌓</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="accent">Salman Raza</span>.</h1>
+        <p class="lead">QA Engineer • Automation Tester • WordPress Developer • Tech Writer</p>
+        <p class="sublead">I break software (politely), build robust test automation, and write about quality and AI.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+        </div>
+        <ul class="socials">
+          <li><a href="https://github.com/salmanraza9773" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/-salmanraza/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://medium.com/@rsalman.sr.sr" target="_blank">Medium</a></li>
+        </ul>
+      </div>
+      <div class="hero-art"></div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>I’m a QA Associate focused on building reliable software with modern testing practices (Selenium, Postman, API testing, CI/CD). I also design websites in WordPress and write blogs about AI and quality.</p>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="badges">
+        <span>Java</span><span>Selenium</span><span>TestNG</span><span>Cucumber (BDD)</span><span>Jira</span><span>Postman</span><span>WordPress</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>GitHub Projects</h2>
+      <div id="github-projects" class="grid three cards">
+        <p>Loading projects...</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>Let’s build something great together.</p>
+      <a class="btn primary" href="mailto:you@example.com">Email Me</a>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© 2025 Salman Raza. Released under <a href="LICENSE">GPL-3.0-or-later</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
